@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@600&display=swap');
+
+body{
+  background-color: aliceblue;
+}
+
+/* CONTAINER */
+
+.big-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center the child elements */
+  justify-content: center;  /* Vertically center the child elements */
+  margin: 0 auto;  /* center the big-container div in body */
+  background-color: #0B2434;
+  width: 360px;
+  height:  379px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.small-container{
+  background-color: #f5f5f5;
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center the child elements */
+  /* justify-content: center;   */
+  /* Vertically center the child elements */
+  margin: 0 auto;  /* center the big-container div in big-container */
+}
+
+
+/* HEADER */
+
+.header{
+  color:blue;
+  margin-top: 20px;
+}
+
+.header-title{
+  width: 233px;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Karla', sans-serif;
+  letter-spacing: -0.2rem;
+  margin-bottom: 10px;
+}
+
+.header-instructions{
+  width: 233px;
+  /* height: 32px;  */
+  letter-spacing: -0.01rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+/* GAME */
+
+.game-container{
+  width: 250px;
+  height: 100px;
+  /* background-color: chartreuse; */
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-gap: 16px; */
+  justify-content: space-evenly;
+  align-items: center; /* Vertically center */
+}
+/* game-item */
+.game-button-item{
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  margin: 5px;
+  /* margin: 0 auto; */
+  width: 36px;
+  height: 36px;
+  /* background-color: white; */
+  color: #2B283A;
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* BUTTON */
+
+/* Style of text above the button Roll */
+.textAboveRollButt{
+  font-size: 14px;
+  font-family: 'Karla', sans-serif;
+  margin-bottom: 3px;
+}
+
+/* Button Style */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #5035FF;
+  color: #ffffff;
+  /* transition: background-color 0.3s ease; */
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #2980b9; /* Darker color on hover */
+}
+
